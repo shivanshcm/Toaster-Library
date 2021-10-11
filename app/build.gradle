@@ -1,7 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
-    id 'maven-publish'
+//    id 'maven-publish'
 }
 
         android {
@@ -10,7 +10,7 @@ plugins {
             defaultConfig {
                 applicationId "com.example.toasterexample"
                 minSdk 21
-                targetSdk 31
+                targetSdk 30
                 versionCode 1
                 versionName "1.0"
 
